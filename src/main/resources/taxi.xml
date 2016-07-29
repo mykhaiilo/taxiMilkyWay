@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<class>
+    <order number="1">
+        <clientAddress
+    </order>
+
+
+clientAddress;
+ timeOfOrder;
+ numberOfPassengers;
