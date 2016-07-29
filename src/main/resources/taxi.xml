@@ -1,10 +1,27 @@
 <?xml version="1.0"?>
 <class>
     <order number="1">
-        <clientAddress
+        <clientAddressStreet>shevchenka</clientAddressStreet>
+        <clientAddressHouseNumber>5</clientAddressHouseNumber>
+        <timeOfOrder>5.45</timeOfOrder>
+        <numberOfPassangers>3</numberOfPassangers>
     </order>
-
-
-clientAddress;
- timeOfOrder;
- numberOfPassengers;
+    <order number="2">
+        <clientAddressStreet>galicia</clientAddressStreet>
+        <clientAddressHouseNumber>8</clientAddressHouseNumber>
+        <timeOfOrder>2.45</timeOfOrder>
+        <numberOfPassangers>5</numberOfPassangers>
+    </order>
+    <order number="3">
+        <clientAddressStreet>sheremety</clientAddressStreet>
+        <clientAddressHouseNumber>2</clientAddressHouseNumber>
+        <timeOfOrder>7.45</timeOfOrder>
+        <numberOfPassangers>8</numberOfPassangers>
+    </order>
+    <order number="4">
+        <clientAddressStreet>brovka</clientAddressStreet>
+        <clientAddressHouseNumber>6</clientAddressHouseNumber>
+        <timeOfOrder>13.45</timeOfOrder>
+        <numberOfPassangers>4</numberOfPassangers>
+    </order>
+</class>

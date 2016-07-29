@@ -2,7 +2,8 @@ package domain;
 
 public class Client {
 
-    private String clientAddress;
+    private String clientAddressStreet;
+    private int clientAddressHouseNumber;
     private String timeOfOrder;
     private int numberOfPassengers;
 
@@ -10,16 +11,20 @@ public class Client {
         return numberOfPassengers;
     }
 
-    public String getClientAddress() {
-        return clientAddress;
+    public String getClientAddressStreet() {
+        return clientAddressStreet;
     }
 
     public String getTimeOfOrder() {
         return timeOfOrder;
     }
 
-    public void setClientAddress(String clientAddress) {
-        this.clientAddress = clientAddress;
+    public int getClientAddressHouseNumber() {
+        return clientAddressHouseNumber;
+    }
+
+    public void setClientAddressStreet(String clientAddressStreet) {
+        this.clientAddressStreet = clientAddressStreet;
     }
 
     public void setNumberOfPassengers(int numberOfPassengers) {
@@ -30,8 +35,12 @@ public class Client {
         this.timeOfOrder = timeOfOrder;
     }
 
+    public void setClientAddressHouseNumber(int clientAddressHouseNumber) {
+        this.clientAddressHouseNumber = clientAddressHouseNumber;
+    }
+
     public String toSting(){
-        return getClass().getSimpleName() + "Client address " +this.clientAddress +
+        return getClass().getSimpleName() + "Client address " +this.getClientAddressStreet() + this.getClientAddressHouseNumber()+
                 " , time for order " + this.getTimeOfOrder() +
                 " , number of passengers" + this.getNumberOfPassengers();
     }
