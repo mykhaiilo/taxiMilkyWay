@@ -1,8 +1,5 @@
 package domain;
 
-/**
- * Created by michael on 01.06.16.
- */
 public class Taxi {
     private int numberOfMiniven;
     private int numberOfSedan;
